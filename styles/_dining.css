@@ -1,0 +1,186 @@
+.main-dining{
+    width: 100%;
+ 
+    margin: auto;
+    margin-top: 80px;
+    background: #F3F3F3;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    padding: 20px;
+}
+.main-dining__rooms{
+    max-width: 400px;
+    width: 100%;
+    height: 760px;
+   background: url("../imeges/img2.png") no-repeat center center /cover;
+    position: relative;
+   color: white;
+   margin-right: 25px;
+   transition: all 0.3s;
+   border-radius: 20px;
+}
+.main-dining__rooms h4{
+    position: absolute;
+    bottom: 50px;
+    left: 150px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.main-dining__cards__img{
+    max-width: 400px;
+   
+    width: 100%;
+    height: 360px;
+    background: url("../imeges/img3.png") no-repeat center center /cover;
+    text-align: center;
+    color: white;
+    transition: all 0.3s;
+   border-radius: 20px;
+
+}
+.main-dining__cards__img:nth-child(2){
+  background: url("../imeges/img4.png") no-repeat center center /cover;
+}
+.main-dining__rooms:hover{
+    transform: scale(1.1);
+}
+.main-dining__cards__img:nth-child(2){
+    background: url("../imeges/img4.png") no-repeat center center /cover;   
+}
+.main-dining__cards__img:nth-child(3){
+    background: url("../imeges/img4.png") no-repeat center center /cover;
+}
+.main-dining__cards__img:nth-child(4){
+    background: url("../imeges/img6.png") no-repeat center center /cover;
+}
+.main-dining__cards__img h4{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    margin-top: 250px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+.main-dining__cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.main-dinning__boxs{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.main-dining__cards__img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+@media screen and (max-width:1440px) {
+    
+}
+@media screen and (max-width: 1280px) {
+   
+  .main-dining__cards__img{
+    margin-left: 20px;
+    border-radius: 30px;
+  }
+  .main-dining__rooms h4{
+    left: 112px;
+  }
+ 
+  }
+  @media screen and (max-width: 1024px) {
+    .container {
+      max-width: 768px;
+    }
+    .main-dinning__boxs{
+      flex-wrap: wrap;
+    }
+    .main-dining__rooms{
+      max-width: 900px;
+      width: 100%;
+      height: 400px;
+      margin-right: 0px;
+    }
+    .main-dining__cards{
+      flex-wrap: nowrap;
+      margin-top: 20px;
+    }
+    .main-dining__rooms h4{
+      left: 320px;
+    }
+    .main-dining__cards__img{
+      margin-left: 0px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .container {
+      max-width: 640px;
+    }
+    .main-dining__rooms h4{
+      left: 270px;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    .container {
+      max-width: 500px;
+    }
+    .main-dining__rooms{
+      max-width: 600px;
+      width: 100%;
+      height: 300px;
+      margin-right: 0px;
+    }
+    .main-dining__cards{
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    .main-dining__rooms h4{
+      left: 180px;
+    }
+    .main-dining__cards__img{
+      margin-left: 0px;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .main-dining__rooms h4{
+      left: 143px;
+    }
+    .main-dining__cards__img{
+      margin-left: 0px;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .main-dining__rooms h4{
+        position: absolute;
+        bottom: 20px;
+        left: 80px;
+    }
+    .main-dining__cards__img{
+      margin-left: 0px;
+    }
+  }

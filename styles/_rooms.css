@@ -1,0 +1,206 @@
+main{
+    width: 100%;
+}
+.main-room{
+    max-width: 1194px;
+    width: 100%;
+    height: 320px;
+    border-radius: 42px;
+    background: #E9F3F6;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+}
+.container h3{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+   padding-top: 36px;
+    font-weight: 500;
+
+    line-height: normal;
+}
+.container p{
+    color: #5E5E5E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    margin-top: 9px;
+    font-weight: 500;
+    line-height: normal;
+}
+.main-room__card{
+    width: 100%;
+    margin: auto;
+    height: 120px;
+    margin-top: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+   
+
+}
+.main-room__card__date{
+    width: 256px;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.main-room__card__date__input{
+    margin-top: 16px;
+}
+.date{
+    width: 256px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+.date a{
+    margin-right: 20px;
+}
+.date h5{
+    color: #1E1E1E;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.date a i{
+    color: black;
+}
+.main-room__card__date h6{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.main-room__card__person{
+    width: 433px;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: left;
+
+}
+.main-room__card__person h6{
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    
+    line-height: normal;
+}
+.main-room__card__person__number{
+    width: 433px;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+.main-room__card__person a{
+    text-decoration: none;
+}
+.main-room__card button{
+    width: 201px;
+    height: 59px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    cursor: pointer;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 12px;
+    background: #65AEF2;
+    border: none;
+    margin-top:44px;
+    transition: all 0.3s;
+}
+.icon{
+   
+    height: 20px;
+    background-color: white;
+    
+    
+
+}
+.main-room__card button:hover{
+    background-color: #5E5E5E;
+
+
+}
+
+ 
+@media screen and (max-width:1440px) {
+    
+}
+@media screen and (max-width: 1280px) {
+  
+  }
+  @media screen and (max-width: 1024px) {
+    .main-room__card{
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .main-room__card button{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .main-room{
+        height: 350px;
+    }
+   
+  }
+  @media screen and (max-width: 768px) {
+    .main-room{
+       height: 450px;
+    }
+  }
+  @media screen and (max-width: 640px) {
+   
+  }
+  @media screen and (max-width: 500px) {
+    .main-room__card button{
+        width: 150px;
+        height: 39px;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 16px;
+    }
+    .main-room__card__person__number{
+        width: 380px;
+    }
+    .date{
+        width: 200px;
+        height: 50px;
+    }.date a{
+      margin-left: 0px;
+    }
+
+  }
+  @media screen and (max-width: 425px) {
+    .main-room__card__person__number{
+        width: 300px;
+    }
+    .date a{
+        margin-right: 10px;
+    }
+  }

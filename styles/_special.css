@@ -1,0 +1,213 @@
+.special{
+    width: 100%;
+    margin: auto;
+    margin-top: 80px;
+}
+.special-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.special-title__desk{
+    max-width: 742px;
+    width: 100%;
+    text-align: left;
+}
+.special-title__desk h3{
+    color: #65AEF2;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    text-align: left;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+.special-title__desk h2{
+    color: #000;
+    font-family: Inter;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.special-title__desk p{
+    color: #1E1E1E;
+    font-family: Inter;
+    margin-top: 40px;
+    text-align: left;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.special-title__right h3{
+    color: #65AEF2;
+    font-family: Inter;
+    font-size: 32px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.special-cards{
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.special-cards__box{
+    max-width: 400px;
+    width: 100%;
+
+    border-radius: 42px;
+    cursor: pointer;
+    background: #FFF;
+    box-shadow: 0px 4px 60px 0px rgba(0, 52, 101, 0.25);
+}
+.special-cards__box img{
+    padding: 20px;
+}
+.special-cards__box p{
+    color: #5E5E5E;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    padding-left: 20px;
+    font-weight: 700;
+    text-align: left;
+    line-height: normal;
+}
+.special-cards__box__inner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.special-cards__box__inner h6{
+    color: #1E1E1E;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 20px;
+    line-height: normal;
+}
+.special-cards__box__inner__icon
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.special-cards__box__inner__icon h6{
+    color: #1E1E1E;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-right: 20px;
+}
+.special-cards__box p{
+    margin-top: 17px;
+}
+.special-cards__box h1{
+    text-align: center;
+    margin-top: 30px;
+    color: #1E1E1E;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.special-cards__box sub{
+    color: #1E1E1E;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.special-cards__box h1{
+    margin-bottom: 30px;
+}
+
+
+@media screen and (max-width:1440px) {
+    
+}
+@media screen and (max-width: 1280px) {
+  
+    .special-cards{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly ;
+       gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 40px;
+       }
+ 
+  }
+  @media screen and (max-width: 1024px) {
+   .special-cards{
+    flex-wrap: wrap;
+   }
+   .special-title__desk h2
+   {
+    font-size: 45px;
+   }
+   .special-title__desk p{
+    font-size: 20px;
+   }
+   .special-title__right h3{
+    font-size: 20px;
+   }
+   .special-title__desk{
+    max-width: 650px;
+    width: 100%;
+
+   }
+   .special-title__desk h3{
+    font-size: 25px;
+   }
+  }
+  @media screen and (max-width: 768px) {
+    .special-title{
+        flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 640px) {
+   
+  }
+  @media screen and (max-width: 500px) {
+   
+    .special-cards__box img{
+        width: 360px;
+        height: 300px;
+    }
+    .special-title__desk h2
+   {
+    font-size: 25px;
+   }
+  }
+  @media screen and (max-width: 425px) {
+    .special-cards__box img{
+        width: 260px;
+        height: 200px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .special-cards__box img{
+        width: 250px;
+        height: 190px;
+    }
+  }

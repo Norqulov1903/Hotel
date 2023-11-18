@@ -1,0 +1,255 @@
+header{
+    width: 100%;
+
+ 
+}
+.header__inner
+{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    aspect-ratio: 1440/658;
+    background:  url("../imeges/img1.png") no-repeat center center /cover;
+    
+}
+
+.icon input{
+    width: 20px;
+    border: none;
+    margin-left: -20px;
+    cursor: pointer;
+}
+.header__position{
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+.header-nav{
+    max-width: 1194px;
+    width: 100%;
+    color: black;
+    
+  
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 10px;
+    margin:  auto;
+    margin-top: 30px;
+}
+.header-nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.header-nav ul li a{
+    color: #262626;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: normal;
+    transition: all 0.3s;
+}
+.header-nav ul li a:hover{
+    color: #65AEF2;
+}
+.header-nav__logo{
+    position: relative;
+    cursor: pointer;
+    margin-top: 9px;
+}
+.header-nav__logo i{
+    position: absolute;
+    top: -10px;
+    left: 14px;
+    font-size: 50px;
+    color: #65AEF2;
+}
+.discover__title{
+    color: white;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 733px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+.discover__circle{
+    width: 100px;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.discover__circle span{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    transition: all 0.3s;
+    border: none;
+
+
+}
+.discover__circle span:hover{
+    background-color: #65AEF2;
+    border: none;
+}
+.discover__circle .active{
+    background-color: #65AEF2;
+}
+.header-nav__logo1{
+    position: relative;
+    cursor: pointer;
+    display: none;
+    margin-top: 9px;
+}
+.header-nav__logo1 i{
+    position: absolute;
+    top: -10px;
+    left: 14px;
+    font-size: 50px;
+    color: #65AEF2;
+}
+.hamb {
+    width: 40px;
+   height: 40px;
+   display: none;
+
+   
+}
+.hamb a{
+    width: 40px;
+    height: 3px;
+    border: 2px solid white;
+
+
+}
+
+
+
+@media screen and (max-width:1440px) {
+    
+}
+@media screen and (max-width: 1280px) {
+    .discover__title{
+        margin-bottom: 40px;
+        font-size: 50px;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .container {
+      max-width: 768px;
+    }
+    .discover__title{
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+    .discover__circle{
+        margin-bottom: 20px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .container {
+      max-width: 640px;
+    }
+    .discover__title{
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    .discover__circle span{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      
+    }
+    .header-nav__logo1{
+        display: block;
+    }
+    .hamb {
+        display: block;
+        
+    }
+    .header-nav nav{
+        display: none;
+    }
+    .header-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .hamb a{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+   
+    .discover__circle{
+        margin-bottom: 10px;
+        border: 2px solid black;
+    }
+   
+  }
+  @media screen and (max-width: 640px) {
+    .container {
+      max-width: 500px;
+      width: 100%;
+    }
+    .discover__title{
+        width: 100%;
+        font-size: 25px;
+    }
+    .hamb a{
+        width: 30px;
+        height: 2px;
+
+    }
+    .discover__circle{
+        margin-bottom: 5px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .hamb{
+        width: 25px;
+        height: 10px;
+    
+    }
+   
+    .discover__title{
+        width: 100%;
+        font-size: 18px;
+    }
+    .hamb {
+        width: 25px;
+       height: 10px;
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+       flex-direction: column;
+    }
+    .hamb a{
+        width: 25px;
+        height: 3px;
+        border: 2px solid white;
+    
+    
+    }
+
+
+
+  }
