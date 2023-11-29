@@ -57,7 +57,5 @@ header{
     }
   }
   @media screen and (max-width: 425px) {
-    .container {
-      max-width: 320px;
-    }
+   
   }

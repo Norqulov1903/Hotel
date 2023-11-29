@@ -47,9 +47,7 @@
 .main-dining__cards__img:nth-child(2){
   background: url("../imeges/img4.png") no-repeat center center /cover;
 }
-.main-dining__rooms:hover{
-    transform: scale(1.1);
-}
+
 .main-dining__cards__img:nth-child(2){
     background: url("../imeges/img4.png") no-repeat center center /cover;   
 }
@@ -90,14 +88,6 @@
     justify-content: space-evenly;
    
 }
-.main-dining__cards__img:hover{
-    transform: scale(1.1);
-}
-
-
-
-
-
 
 @media screen and (max-width:1440px) {
     

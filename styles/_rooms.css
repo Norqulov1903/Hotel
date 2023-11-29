@@ -8,6 +8,7 @@ main{
     border-radius: 42px;
     background: #E9F3F6;
     margin: auto;
+   
     margin-top: 80px;
     text-align: center;
 }
@@ -44,6 +45,16 @@ main{
    
 
 }
+.main-room__card__person__number select{
+    border: none;
+    outline: none;
+    
+}
+
+.selsct{
+    border: none;
+    outline: none;
+}
 .main-room__card__date{
     width: 256px;
     height: 120px;
@@ -53,6 +64,10 @@ main{
 }
 .main-room__card__date__input{
     margin-top: 16px;
+    outline: none;
+    border: none;
+    text-align: center;
+    margin-left: -30px;
 }
 .date{
     width: 256px;
@@ -67,6 +82,14 @@ main{
 .date a{
     margin-right: 20px;
 }
+
+.custom-select{
+    font-family:Inter;
+}
+
+
+
+
 .date h5{
     color: #1E1E1E;
     font-family: Inter;
@@ -161,7 +184,7 @@ main{
         margin-top: 20px;
     }
     .main-room__card button{
-        margin-top: 10px;
+        margin-top: 30px;
         margin-bottom: 20px;
     }
     .main-room{
@@ -173,9 +196,40 @@ main{
     .main-room{
        height: 450px;
     }
+    .main-room__card__date{
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    .main-room__card__person{
+        width: 550px;
+        display: flex;
+      
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+        height: auto;
+        text-align: center;
+    }
+    .main-room__card__person__number{
+        margin-top: 9px;
+    }
+    .main-room__card__person h6{
+        margin-top: 14px;
+    }
   }
   @media screen and (max-width: 640px) {
-   
+    .main-room__card__person__number{
+    width: 350px;
+    }
+    .main-room__card__person h6{
+        margin-top: 0px;
+    }
+    .main-room__card__person__number{
+        margin-top: 0px;
+    }
   }
   @media screen and (max-width: 500px) {
     .main-room__card button{
@@ -186,6 +240,10 @@ main{
         font-size: 16px;
     }
     .main-room__card__person__number{
+        width: 300px!important;
+        }
+        
+    .main-room__card__person__number{
         width: 380px;
     }
     .date{
@@ -194,12 +252,38 @@ main{
     }.date a{
       margin-left: 0px;
     }
+    .main-room__card__date{
+        width: 300px;
+    }
 
   }
   @media screen and (max-width: 425px) {
     .main-room__card__person__number{
         width: 300px;
     }
+    .main-room__card__person h6{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .main-room__card__date{
+        height: auto;
+    }
+    .main-room__card__date{
+        width: 270px;
+    }
+    .main-room__card__date{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .main-room__card__person{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
     .date a{
         margin-right: 10px;
     }

@@ -1,7 +1,7 @@
 .special{
     width: 100%;
     margin: auto;
-    margin-top: 80px;
+    margin-top: 20px;
 }
 .special-title{
     display: flex;
@@ -15,6 +15,7 @@
     text-align: left;
 }
 .special-title__desk h3{
+    width: 230px;
     color: #65AEF2;
     font-family: Inter;
     font-size: 32px;
@@ -23,6 +24,10 @@
     font-weight: 500;
     line-height: normal;
     cursor: pointer;
+    transition: all 0.3s;
+}
+.special-title__desk h3:hover{
+    color: #5E5E5E;
 }
 .special-title__desk h2{
     color: #000;
@@ -52,6 +57,10 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    transition: all 0.3s;
+}
+.special-title__right h3:hover{
+ color: #5E5E5E; 
 }
 .special-cards{
     width: 100%;
@@ -61,11 +70,15 @@
     justify-content: space-between;
     flex-direction: row;
     
+    
+}
+.special-cards__box:hover{
+    box-shadow:  0 0 10px black;
 }
 .special-cards__box{
     max-width: 400px;
     width: 100%;
-
+    transition: all 0.3s;
     border-radius: 42px;
     cursor: pointer;
     background: #FFF;
@@ -201,8 +214,11 @@
   }
   @media screen and (max-width: 425px) {
     .special-cards__box img{
-        width: 260px;
-        height: 200px;
+        width: 100%;
+        height: 245px;
+    }
+    .special-cards__box{
+        width: 100%;
     }
   }
   @media screen and (max-width: 320px) {

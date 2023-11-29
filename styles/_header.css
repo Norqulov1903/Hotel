@@ -22,8 +22,8 @@ header{
 }
 .header__position{
     width: 100%;
-    position: fixed;
-    z-index: 10;
+    /* position: fixed;
+    z-index: 10; */
 }
 .header-nav{
     max-width: 1194px;
@@ -31,7 +31,7 @@ header{
     color: black;
     
   
-    border: 2px solid black;
+  
     background-color: white;
     border-radius: 10px;
     margin:  auto;
@@ -59,6 +59,7 @@ header{
 .header-nav__logo{
     position: relative;
     cursor: pointer;
+    transition: all 0.3s;
     margin-top: 9px;
 }
 .header-nav__logo i{
@@ -66,6 +67,7 @@ header{
     top: -10px;
     left: 14px;
     font-size: 50px;
+    transition: all 0.3s;
     color: #65AEF2;
 }
 .discover__title{
@@ -155,6 +157,14 @@ header{
     .discover__circle{
         margin-bottom: 20px;
     }
+    .hamb a{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin-top: 10px;
+        cursor: pointer;
+    }
   }
   @media screen and (max-width: 768px) {
     .container {
@@ -201,7 +211,10 @@ header{
    
     .discover__circle{
         margin-bottom: 10px;
-        border: 2px solid black;
+     
+    }
+    .header-nav{
+        margin-top: 10px;
     }
    
   }
@@ -209,6 +222,9 @@ header{
     .container {
       max-width: 500px;
       width: 100%;
+    }
+    .header-nav{
+        margin-top: 10px;
     }
     .discover__title{
         width: 100%;
@@ -222,6 +238,10 @@ header{
     .discover__circle{
         margin-bottom: 5px;
     }
+    .header-nav{
+        margin-top: 10px;
+    }
+
 }
 @media screen and (max-width: 425px) {
     .hamb{
@@ -229,6 +249,10 @@ header{
         height: 10px;
     
     }
+    .container h3{
+        font-size: 26px;
+    }
+  
    
     .discover__title{
         width: 100%;
@@ -236,18 +260,22 @@ header{
     }
     .hamb {
         width: 25px;
-       height: 10px;
+height: auto;
+     
        display: flex;
        align-items: center;
        justify-content: space-evenly;
        flex-direction: column;
     }
     .hamb a{
-        width: 25px;
-        height: 3px;
+        width: 20px;
+       height: auto;
         border: 2px solid white;
     
     
+    }
+    .header-nav{
+        margin-top: 10px;
     }
 
 
